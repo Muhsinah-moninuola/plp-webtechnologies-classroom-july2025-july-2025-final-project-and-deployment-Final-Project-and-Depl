@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HealMate | Features</title>
+        <link rel="stylesheet" href="style.css">
+
+        <!--Favicon-->
+        <link rel="apple-touch-icon" sizes="180x180" href="Image/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="Image/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="Image/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+    </head>
+
+    <body>
+        <!-- Navigation Bar -->
+        <header>
+            <nav>
+            <h1>HealMate</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </nav>
+        </header>
+
+        <!-- Features Section -->
+        <main>
+            <h2>Features</h2>
+            <section class="feature-list">
+            <div>
+                <img src="Image/pills.png" alt="Medication Icon">
+                <h3>Medication Reminders</h3>
+                <p>Set simple reminders for your daily medication schedule.</p>
+            </div>
+            <div>
+                <img src="Image/jornal.png" alt="Journal Icon">
+                <h3>📖 Daily Health Journal</h3>
+                <p>Log your symptoms, moods, and progress every day.</p>
+            </div>
+            <div>
+                <img src="Image/progressChart.jpg" alt="Progress Chart Icon">
+                <h3>Track Progress</h3>
+                <p>Review your health history and stay consistent.</p>
+            </div>
+            </section>
+
+            <!-- Interactive Demo -->
+            <section class="demo">
+            <h2>Try a Demo</h2>
+            <!-- Form to simulate setting a medication reminder -->
+            <form id="medForm">
+                <input type="text" id="medName" placeholder="Enter medication" required>
+                <input type="time" id="medTime" required>
+                <button type="submit">Set Reminder</button>
+            </form>
+            <!-- List where reminders will be displayed dynamically -->
+            <ul id="medLog"></ul>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2025 HealMate | Built for Web Dev Project</p>
+        </footer>
+
+        <script src="script.js" defer></script>
+    </body>
+</html>

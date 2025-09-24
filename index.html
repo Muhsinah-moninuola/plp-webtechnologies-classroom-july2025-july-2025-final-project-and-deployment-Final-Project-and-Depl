@@ -1,0 +1,62 @@
+<!--Home Page-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HealMate | Home</title>
+        
+
+        <!--Favicon-->
+        <link rel="apple-touch-icon" sizes="180x180" href="Image/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="Image/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="Image/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- Navigation Bar -->
+        <header>
+            <nav>
+            <h1>HealMate</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <main>
+            <section class="hero">
+           
+            <img src="image/Healmate.png" alt="Health and wellness illustration">
+            <h2>Your Health. Your Companion.</h2>
+            <p>HealMate helps you track medication, journal your wellness, and stay on top of your health journey.</p>
+            <a href="features.html" class="btn">Get Started</a>
+            </section>
+
+
+            <!-- Button to trigger modal -->
+            <button id="reminderBtn">Need a Boost?</button>
+
+            <!-- Modal Structure -->
+            <div id="reminderModal" class="modal">
+            <div class="modal-content">
+                <span id="closeModal" class="close">&times;</span>
+                <p id="reminderText">Here’s your reminder...</p>
+            </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2025 HealMate | Built for Web Dev Project</p>
+        </footer>
+
+        <script src="script.js" defer></script>
+    </body>
+</html>
